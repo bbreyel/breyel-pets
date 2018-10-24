@@ -3,6 +3,7 @@ import Display from '../../templates/Display';
 import Padding from '../../formatting/Padding';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
+import AnchorButton from '../../formatting/elements/AnchorButton';
 
 export default function PetDisplay(props) {
   const path = '/pets/' + props.pet.id;
@@ -22,7 +23,9 @@ export default function PetDisplay(props) {
           </Row>
           <Row>
             <Col className="text-right">
-              <button><a href={path}>View Profile</a></button>
+              <AnchorButton path={path}>
+                View Profile
+              </AnchorButton>
             </Col>
           </Row>
         </Padding>
