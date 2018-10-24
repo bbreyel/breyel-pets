@@ -1,0 +1,29 @@
+@import '~bootstrap/scss/bootstrap';
+@import './_headers.scss';
+@import './_colors.scss';
+@import './_spacing.scss';
+@import './_margins.scss';
+
+body {
+  background-color: $orange;
+  color: $blue;
+}
+
+.display {
+  background: $light-blue;
+  border: 1px solid $blue;
+  border-radius: 15px;
+}
+
+.padding {
+  padding: 15px;
+}
+
+.pet-display {
+  margin-bottom: 15px;
+}
+
+.pet-profile {
+  overflow: hidden;
+}
+

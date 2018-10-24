@@ -1,0 +1,51 @@
+{
+  "pets": [{
+    "id": 0,
+    "name": "Ripley",
+    "type": "Cat",
+    "breed": "Domestic Short Hair",
+    "age": 4,
+    "description": "This is the first cat that my wife and I got together. She's our baby. She is a little bit of a piggy. She's got a big personality and we love her for it.",
+    "imgUrl": "/assets/ripley.jpg"
+  }, {
+    "id": 1,
+    "name": "Dixie",
+    "type": "Dog",
+    "breed": "Cocker Spaniel",
+    "age": 6,
+    "description": "This dog is my favorite. She's a lazy chunk and sometimes grumpy but it's hilarious and adorable.",
+    "imgUrl": "/assets/dixie.jpg"
+  }, {
+    "id": 2,
+    "name": "Maggie",
+    "type": "Dog",
+    "breed": "Cocker Spaniel",
+    "age": 4,
+    "description": "This dog is the happiest animal you will ever meet. She's as sweet as can be and always full of excitement. When she wags her tail, her whole butt wiggles. She's a noodle.",
+    "imgUrl": "/assets/maggie.jpg"
+  }, {
+    "id": 3,
+    "name": "Cambria",
+    "type": "Cat",
+    "breed": "Not Sure",
+    "age": 1,
+    "description": "We got her recently from the vet. She was feral and had a rocky start with us. She's a total bud now but still skeptical at times. She's named after one of my favorite bands.",
+    "imgUrl": "/assets/maggie.jpg"
+  }, {
+    "id": 4,
+    "name": "Chipper",
+    "type": "Dog",
+    "breed": "Cocker Spaniel",
+    "age": 8,
+    "description": "This dog is sometimes nice and sometimes a bit agressive. We was sadly abused before we took him in so we can't really blame him. He's got a sweet side that comes out more and more as time goes on.",
+    "imgUrl": "/assets/maggie.jpg"
+  }, {
+    "id": 5,
+    "name": "Lola",
+    "type": "Cat",
+    "breed": "No Idea",
+    "age": 4,
+    "description": "Lola is the chillest. It's like she's stoned all the time. She can be friendly if she wants to. She's pretty good at hunting. I wish she liked to be held though.",
+    "imgUrl": "/assets/lola.png"
+  }
+]}
