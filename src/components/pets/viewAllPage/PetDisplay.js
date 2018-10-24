@@ -1,20 +1,39 @@
 import React from 'react';
 import Display from '../../templates/Display';
 import Padding from '../../formatting/Padding';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
 
 export default function PetDisplay(props) {
+  const path = '/pets/' + props.pet.id;
   return (
     <div>
       <Display class="pet-display">
         <Padding>
-          <h2>
-            {props.pet.name}
-          </h2>
-          <h3>
-            {props.pet.type}
-          </h3>
+          <Row>
+            <Col>
+              <h2>
+                {props.pet.name}
+              </h2>
+              <h3>
+                {props.pet.type}
+              </h3>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-right">
+              <button><a href={path}>View Profile</a></button>
+            </Col>
+          </Row>
         </Padding>
       </Display>
     </div>
   )
 }
+/**
+ *           {/* <Row className="justify-content-end">
+            <Col xs={8} >
+              <button>View Profile</button>
+            </Col>
+          </Row> 
+ */

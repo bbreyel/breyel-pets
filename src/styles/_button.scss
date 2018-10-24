@@ -1,0 +1,11 @@
+button {
+  border: 1px solid $orange;
+  border-radius: $medium;
+  background-color: $light-blue;
+  color: $blue;
+  cursor: pointer;
+  &:hover {
+    background-color: $blue;
+    color: $light-blue;
+  }
+}

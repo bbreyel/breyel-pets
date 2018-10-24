@@ -4,6 +4,7 @@
 @import './_spacing.scss';
 @import './_margins.scss';
 @import './padding.scss';
+@import './button.scss';
 
 body {
   background-color: $orange;
@@ -17,7 +18,7 @@ body {
 }
 
 .pet-display {
-  margin-bottom: 15px;
+  margin-bottom: $medium;
 }
 
 .pet-profile {
