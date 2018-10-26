@@ -2,13 +2,13 @@ import React from 'react';
 import FloatLeft from '../../formatting/FloatLeft';
 import MarginRight from '../../formatting/MarginRight';
 import Image from 'react-bootstrap/lib/Image';
-// import image from '../../../assets/ripley.jpg';
 import Display from '../../templates/Display';
 import Padding from '../../formatting/Padding';
 import ProfileDescription from './ProfileDescription';
 import AnchorButton from '../../formatting/elements/AnchorButton';
 
 export default function PetProfile(props) {
+  const path = '/all';
   return (
     <Display class="pet-profile">
       <FloatLeft>
@@ -18,7 +18,7 @@ export default function PetProfile(props) {
       </FloatLeft>
       <Padding>
         <div className="mb-med">
-          <AnchorButton path="/all">Back</AnchorButton>
+          <AnchorButton path={path}>Back</AnchorButton>
         </div>
         <ProfileDescription pet={props.pet} />
       </Padding>
