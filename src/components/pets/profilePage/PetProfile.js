@@ -1,27 +1,20 @@
 import React from 'react';
-import FloatLeft from '../../formatting/FloatLeft';
-import MarginRight from '../../formatting/MarginRight';
 import Image from 'react-bootstrap/lib/Image';
 import Display from '../../templates/Display';
-import Padding from '../../formatting/Padding';
 import ProfileDescription from './ProfileDescription';
-import AnchorButton from '../../formatting/elements/AnchorButton';
+import AnchorButton from '../../formatting/AnchorButton';
 
 export default function PetProfile(props) {
   const path = '/all';
   return (
     <Display class="pet-profile">
-      <FloatLeft>
-        <MarginRight>
-          <Image src={props.pet.imgUrl} alt="Pic of Ripley"  height="300px" />
-        </MarginRight>
-      </FloatLeft>
-      <Padding>
-        <div className="mb-med">
-          <AnchorButton path={path}>Back</AnchorButton>
-        </div>
-        <ProfileDescription pet={props.pet} />
-      </Padding>
+      <div className="float-left mr-med">
+        <Image src={props.pet.imgUrl} alt="Pic of Ripley"  height="300px" />
+      </div>
+      <div className="mb-med pad-med">
+        <AnchorButton path={path}>Back</AnchorButton>
+      </div>
+      <ProfileDescription pet={props.pet} />
     </Display>
   );
 }

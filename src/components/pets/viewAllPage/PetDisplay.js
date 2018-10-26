@@ -1,16 +1,15 @@
 import React from 'react';
 import Display from '../../templates/Display';
-import Padding from '../../formatting/Padding';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
-import AnchorButton from '../../formatting/elements/AnchorButton';
+import AnchorButton from '../../formatting/AnchorButton';
 
 export default function PetDisplay(props) {
   const path = '/pets/' + props.pet.id;
   return (
     <div>
       <Display class="pet-display">
-        <Padding>
+        <div className="pad-med">
           <Row>
             <Col>
               <h2>
@@ -28,7 +27,7 @@ export default function PetDisplay(props) {
               </AnchorButton>
             </Col>
           </Row>
-        </Padding>
+        </div>
       </Display>
     </div>
   )

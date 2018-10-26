@@ -1,6 +1,6 @@
 import React from 'react';
 import PageTemplate from '../templates/PageTemplate';
-import AnchorButton from '../formatting/elements/AnchorButton';
+import AnchorButton from '../formatting/AnchorButton';
 import {Row, Col} from 'react-bootstrap';
 
 export default function ErrorPage(props) {
