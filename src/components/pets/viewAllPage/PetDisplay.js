@@ -32,10 +32,3 @@ export default function PetDisplay(props) {
     </div>
   )
 }
-/**
- *           {/* <Row className="justify-content-end">
-            <Col xs={8} >
-              <button>View Profile</button>
-            </Col>
-          </Row> 
- */
