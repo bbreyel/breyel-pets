@@ -2,7 +2,7 @@ import React from 'react';
 import PageTemplate from '../../templates/PageTemplate';
 import PetProfile from './PetProfile';
 import PetService from '../PetService';
-import Redirect from 'react-router-dom/Redirect';
+import { Redirect } from 'react-router-dom';
 
 export default class ProfilePage extends React.Component {
   constructor(props) {

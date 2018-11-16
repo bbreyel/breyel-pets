@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function AnchorButton(props) {
   return (
-    <a href={props.path}>
+    <Link to={props.path}>
       <button>
         {props.children}
       </button>
-    </a>
+    </Link>
   );
 }
